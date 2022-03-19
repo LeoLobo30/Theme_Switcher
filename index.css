@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #292c35;
+}
+
+/* colors of body
+ --dark: #292C35;
+ --light: #F1F1F1; */
+
+div {
+  position: relative;
+  border: 2px black solid;
+  padding: 0;
+  width: 77px;
+  height: 32px;
+  border-radius: 18px;
+  background-color: black;
+  display: flex;
+}
+
+button {
+  position: absolute;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border: 0px;
+  border-radius: 18px;
+  width: 39%;
+  height: 86%;
+  margin: 2px 4px;
+  right: 0%;
+}
+
+svg {
+  border-radius: 2px;
+  margin: 4px;
+  fill: #f1c40f;
+}
