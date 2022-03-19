@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #292c35;
+  background-color: #F1F1F1;
 }
 
 /* colors of body
@@ -31,7 +31,6 @@ button {
   width: 39%;
   height: 86%;
   margin: 2px 4px;
-  right: 0%;
 }
 
 svg {
