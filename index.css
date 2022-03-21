@@ -4,8 +4,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F1F1F1;
-  transition-duration: 0.4s;
 }
 
 div {
@@ -28,7 +26,6 @@ button {
   width: 39%;
   height: 86%;
   margin: 2px 4px;
-  transition-duration: 0.4s;
 }
 
 svg {
