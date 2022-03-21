@@ -1,18 +1,18 @@
 let button = document.querySelector("button");
 
-/* colors of body
- --dark: #292C35;
- --light: #F1F1F1; */
+const darkTheme = "#292C35";
+const lightTheme = "#F1F1F1";
+
+const positionLeft = "0%";
+const positionRight = "50%";
 
 button.addEventListener("click", function () {
 
-  if (button.style.left == "0%") {
-    button.style.left = "50%";
-    document.body.style.backgroundColor = "#292C35";
+  if (button.style.left == positionLeft) {
+    button.style.left = positionRight;
+    document.body.style.backgroundColor = darkTheme;
   } else {
-    button.style.left = "0%";
-    document.body.style.backgroundColor = "#F1F1F1";
+    button.style.left = positionLeft;
+    document.body.style.backgroundColor = lightTheme;
   }
-  console.log(button.style.left);
-
 });
