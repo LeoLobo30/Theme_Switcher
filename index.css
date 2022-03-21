@@ -5,11 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #F1F1F1;
+  transition-duration: 0.4s;
 }
-
-/* colors of body
- --dark: #292C35;
- --light: #F1F1F1; */
 
 div {
   position: relative;
@@ -31,6 +28,7 @@ button {
   width: 39%;
   height: 86%;
   margin: 2px 4px;
+  transition-duration: 0.4s;
 }
 
 svg {
