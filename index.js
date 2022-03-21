@@ -1,4 +1,4 @@
-let button = document.querySelector("button");
+const button = document.querySelector("button");
 
 const darkTheme = "#292C35";
 const lightTheme = "#F1F1F1";
